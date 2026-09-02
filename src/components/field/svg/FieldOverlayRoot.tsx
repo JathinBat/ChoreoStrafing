@@ -32,7 +32,7 @@ import OverlayWaypoint from "./OverlayWaypoint";
 import FieldConstraintAddLayer from "./constraintDisplay/FieldConstraintAddLayer";
 import FieldConstraintDisplayLayer from "./constraintDisplay/FieldConstraintDisplayLayer";
 import * as FieldDimensions from "./fields/FieldDimensions";
-import Field2026 from "./fields/FieldImage2026.svg";
+import Field2025 from "./fields/FieldImage2025.svg";
 
 type Props = object;
 
@@ -244,7 +244,7 @@ class FieldOverlayRoot extends Component<Props, State> {
                 <g
                   transform={`scale(1 -1) translate(-0.5, ${-FieldDimensions.FIELD_WIDTH - 0.5})`}
                 >
-                  <Field2026></Field2026>
+                  <Field2025></Field2025>
                 </g>
               </>
             )}

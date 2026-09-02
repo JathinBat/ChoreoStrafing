@@ -112,7 +112,7 @@ inline constexpr Map flipperMap{
                std::pair{2025, FlipperType::RotateAround},
                std::pair{2026, FlipperType::RotateAround}}};
 
-inline constexpr int kDefaultYear = 2026;
+inline constexpr int kDefaultYear = 2025;
 
 /// A utility to standardize flipping of coordinate data based on the current
 /// alliance across different years.

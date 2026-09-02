@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { FtToM, InToM } from "../../../../util/UnitConversions";
-import defaultFieldImage from "./FieldImage2026.svg";
+import defaultFieldImage from "./FieldImage2025.svg";
 import { FIELD_LENGTH, FIELD_WIDTH } from "./FieldDimensions";
 import {
   CustomFieldData,
@@ -30,7 +30,7 @@ function converter(unit: "meter" | "foot" | "inch"): (value: number) => number {
 }
 
 const defaultFieldJSON: FieldJSON = {
-  game: "Rebuilt",
+  game: "Reefscape",
   "field-unit": "meter",
   "field-corners": {
     "bottom-right": [FIELD_LENGTH + 0.5, FIELD_WIDTH + 0.5],
@@ -38,7 +38,7 @@ const defaultFieldJSON: FieldJSON = {
   },
   "field-size": [FIELD_LENGTH, FIELD_WIDTH],
   "size-pixels": [FIELD_LENGTH + 1, FIELD_WIDTH + 1],
-  "field-image": "FieldImage2026.svg",
+  "field-image": "FieldImage2025.svg",
   "origin-fraction": [0, 0]
 };
 export const defaultFieldData: CustomFieldData = {

@@ -138,7 +138,7 @@ FLIPPER_MAP: dict[int, FlipperType] = {
 }
 
 
-DEFAULT_YEAR = 2026
+DEFAULT_YEAR = 2025
 
 
 def get_flipper_for_year(year: int = DEFAULT_YEAR):

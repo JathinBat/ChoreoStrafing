@@ -23,7 +23,7 @@
     ],
     "externalBin": ["../target/choreo-cli"]
   },
-  "productName": "Choreo",
+  "productName": "2026 - Reefscape Field",
   "version": "2026.0.3",
   "identifier": "org.sleipnirgroup",
   "plugins": {},
@@ -33,7 +33,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "Choreo v2026.0.3",
+        "title": "2026 - Reefscape Field",
         "width": 1200,
         "height": 800
       }
