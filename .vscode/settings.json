@@ -7,5 +7,9 @@
         "*.traj": "json"
     },
     "java.configuration.updateBuildConfiguration": "interactive",
+<<<<<<< Updated upstream
     "cmake.sourceDirectory": "C:/Users/jathi/Documents/RandomFRCStuff/ChoreoStrafing/trajoptlib"
+=======
+    "cmake.sourceDirectory": "C:/Users/jathi/Documents/RandomFRCStuff/ChoreoStrafingMINE/trajoptlib"
+>>>>>>> Stashed changes
 }
