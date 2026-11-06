@@ -66,7 +66,7 @@ LOCATIONS: list[VersionLocation] = [
         relative_path=Path("src-tauri/tauri.conf.json"),
         version_path=["app", "windows", 0, "title"],
         file_format="json2",
-        prefix="Choreo v",
+        prefix="Choreo - Stellar Surge v",
     ),
     VersionLocation(
         relative_path=Path("src-tauri/Cargo.toml"),

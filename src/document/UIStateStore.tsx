@@ -115,7 +115,7 @@ export const UIStateStore = types
         await tauriWindow
           .getCurrentWindow()
           .setTitle(
-            `Choreo ${await getVersion()} - ${self.projectName ?? "Untitled"}`
+            `Choreo - Stellar Surge ${await getVersion()} - ${self.projectName ?? "Untitled"}`
           )
           .catch(tracing.error);
       }
